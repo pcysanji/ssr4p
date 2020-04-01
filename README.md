@@ -5,16 +5,17 @@ ShadowsocksR 的用户自定义规则 user.rule
 
 ## 适用客户端
 适用于SSR C#客户端，如以下版本
-[Anankke/shadowsocksr-csharp](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases)
 
-[ssr 4.9.2 tlanyan修复版](https://tlanyan.me/shadowsockr-shadowsocksr-shadowsocksrr-clients/)
+- [Anankke/shadowsocksr-csharp](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases)
 
-[HMBSbige/ShadowsocksR-Windows](https://github.com/HMBSbige/ShadowsocksR-Windows/)
+- [ssr 4.9.2 tlanyan修复版](https://tlanyan.me/shadowsockr-shadowsocksr-shadowsocksrr-clients/)
 
-[SSRR-Windows](https://github.com/Anankke/SSRR-Windows)
+- [HMBSbige/ShadowsocksR-Windows](https://github.com/HMBSbige/ShadowsocksR-Windows/)
 
-> By ACL4SSR 
->屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
+- [SSRR-Windows](https://github.com/Anankke/SSRR-Windows)
+
+> By ACL4SSR - 
+> 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 >
 > 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 >

@@ -6,17 +6,22 @@
 # 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 # 参照scomper大神的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 #
-# 更新记录 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
-# 下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
-#
+# 更新地址：https://github.com/pcysanji/ssr4p/
+# 下载地址：https://raw.githubusercontent.com/pcysanji/ssr4p/master/user.rule
 # 感谢ACL4SSR的规则，此版本是自己使用中补充的一些规则 BY 静海流沙
 #**********************************************************************
 
 # 代理域名规则
-# MyList
+# pcysanji
+.doubibackup.com remoteproxy
 .githubusercontent.com remoteproxy
 .rizonesoft.com remoteproxy
 .inoreader.com remoteproxy
+.fanqiang.network remoteproxy
+.ssr.tools remoteproxy
+.tlanyan.me remoteproxy
+
+# MyList
 .bit.no.com remoteproxy
 .btlibrary.me remoteproxy
 .cccat.cc remoteproxy

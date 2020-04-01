@@ -29,6 +29,10 @@ ShadowsocksR 的用户自定义规则 user.rule
 ## 原理说明
 shadowsocksR 一般通过 PAC.txt 分流代理，用户在 user-rule.txt 添加自己的 PAC 规则。后来添加了代理规则模式，可选择用户自定义，则自动调用 user.rule 进行分流。
 
+在全局模式下，代理规则选择用户自定义，网络流量通过 shadowsocksR，shadowsocksR 通过  user.rule 判断哪些需要走代理，哪些需要直连，哪些需要拒绝连接，哪些需要本地代理。
+
+在PAC模式下，代理规则选择用户自定义，网络流量先通过 PAC 判断哪些流量可以流向 shadowsocksR，shadowsocksR 通过  user.rule 判断哪些需要走代理，哪些需要直连，哪些需要拒绝连接，哪些需要本地代理。
+
 我个人认为 user.rule 的语法更为简单和灵活，所以逐渐采用此分流方式。
 
 ### 规则匹配结果类型

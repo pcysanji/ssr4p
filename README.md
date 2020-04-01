@@ -29,14 +29,14 @@ ShadowsocksR 的用户自定义规则 user.rule
 ## 原理说明
 shadowsocksR 一般通过 PAC.txt 分流代理，用户在 user-rule.txt 添加自己的 PAC 规则。后来添加了代理规则模式，可选择用户自定义，则自动调用 user.rule 进行分流。
 
-在全局模式下，代理规则选择用户自定义，网络流量通过 shadowsocksR，shadowsocksR 通过  user.rule 判断哪些需要走代理，哪些需要直连，哪些需要拒绝连接，哪些需要本地代理。
+- 在**全局模式**下，代理规则选择用户自定义，网络流量通过 shadowsocksR，shadowsocksR 通过  user.rule 判断哪些需要走代理，哪些需要直连，哪些需要拒绝连接，哪些需要本地代理。
 
-在PAC模式下，代理规则选择用户自定义，网络流量先通过 PAC 判断哪些流量可以流向 shadowsocksR，shadowsocksR 通过  user.rule 判断哪些需要走代理，哪些需要直连，哪些需要拒绝连接，哪些需要本地代理。
+- 在**PAC模式**下，代理规则选择用户自定义，网络流量先通过 PAC 判断哪些流量可以流向 shadowsocksR，shadowsocksR 通过  user.rule 判断哪些需要走代理，哪些需要直连，哪些需要拒绝连接，哪些需要本地代理。
 
 我个人认为 user.rule 的语法更为简单和灵活，所以逐渐采用此分流方式。
 
 ### 规则匹配结果类型
-user.rule 提供规则四种匹配结果类型 ：remoteproxy、localproxy、direct、reject
+user.rule 提供规则四种匹配结果类型 ：**remoteproxy、localproxy、direct、reject**
 
 - remoteproxy：经过SSR服务器连接（走代理）
 - localproxy：经过本地代理连接，或没有配置本地代理时使用直连连接（本地代理指的是：选项设置 - 二级(前置)代理）
@@ -44,7 +44,7 @@ user.rule 提供规则四种匹配结果类型 ：remoteproxy、localproxy、dir
 - reject：拒绝连接（可用于屏蔽广告，当然前提是用系统代理规则：全局模式，否则只有进入SSR客户端的广告才会被过滤）
 
 ### 基本规则
-规则文件内，除了空行和注释，其它的每行都是一条规则，规则之间有先后次序之分。若出现相同的规则，那么后一条规则可覆盖前一条规则。
+规则文件内，除了空行和注释，其它的每行都是一条规则，规则之间有**先后次序**之分。若出现相同的规则，那么后一条规则可覆盖前一条规则。
 
 规则分两类：
 

@@ -53,9 +53,9 @@ user.rule 提供规则四种匹配结果类型 ：**remoteproxy、localproxy、d
 
 
 ### 写法实例
-```.google.com remoteproxy # .google.com 后缀的所有网址都走代理
+```.google.com remoteproxy # .google.com 后缀的所有网址都走代理  
 
-59.24.3.174 59.24.3.225 remoteproxy # 59.24.3.174 到 59.24.3.225的IP段都走代理
+59.24.3.174 59.24.3.225 remoteproxy # 59.24.3.174 到 59.24.3.225的IP段都走代理  
 ```
 
 官方教程：https://github.com/shadowsocksrr/shadowsocks-rss/wiki/C%23-Proxy-Rule

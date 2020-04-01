@@ -13,6 +13,7 @@
 
 # 代理域名规则
 # pcysanji
+.steempress.io remoteproxy
 .doubibackup.com remoteproxy
 .githubusercontent.com remoteproxy
 .rizonesoft.com remoteproxy

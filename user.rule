@@ -13,6 +13,19 @@
 
 # 代理域名规则
 # pcysanji
+.wp-rocket.me remoteproxy
+.mgclouds.xyz remoteproxy
+.fliqlo.com remoteproxy
+.haruhichan.com remoteproxy
+.upload.ee remoteproxy
+.dunhakdis.com remoteproxy
+.themeforest.net remoteproxy
+.topazlabs.com remoteproxy
+95.141.193.17 remoteproxy
+.ibm.com remoteproxy
+.rsload.net remoteproxy
+.wordpress.org remoteproxy
+.steemit.com remoteproxy
 .steempress.io remoteproxy
 .doubibackup.com remoteproxy
 .githubusercontent.com remoteproxy

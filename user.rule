@@ -13,6 +13,12 @@
 
 # 代理域名规则
 # pcysanji
+.zophar.net remoteproxy
+.tern.1c7.me remoteproxy
+.telegra.ph remoteproxy
+.merlinblog.xyz remoteproxy
+.ssrshare.com remoteproxy
+.moderatecontent.com remoteproxy
 .wp-rocket.me remoteproxy
 .mgclouds.xyz remoteproxy
 .fliqlo.com remoteproxy

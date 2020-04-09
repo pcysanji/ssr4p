@@ -13,6 +13,7 @@
 
 # 代理域名规则
 # pcysanji
+.wikiwand.com remoteproxy
 .zophar.net remoteproxy
 .tern.1c7.me remoteproxy
 .telegra.ph remoteproxy

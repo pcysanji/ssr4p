@@ -13,6 +13,9 @@
 
 # 代理域名规则
 # pcysanji
+.behance.net remoteproxy
+.apkpure.com remoteproxy
+.winudf.com remoteproxy
 s3.us-west-2.amazonaws.com remoteproxy
 .notion.so remoteproxy
 .wikiwand.com remoteproxy

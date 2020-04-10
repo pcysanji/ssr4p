@@ -13,7 +13,10 @@
 
 # 代理域名规则
 # pcysanji
+s3.us-west-2.amazonaws.com remoteproxy
+.notion.so remoteproxy
 .wikiwand.com remoteproxy
+codeload.github.com remoteproxy
 .zophar.net remoteproxy
 .tern.1c7.me remoteproxy
 .telegra.ph remoteproxy

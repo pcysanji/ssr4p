@@ -13,6 +13,7 @@
 
 # 代理域名规则
 # pcysanji
+.coolsymbol.com remoteproxy
 .unsplash.com remoteproxy
 .behance.net remoteproxy
 .apkpure.com remoteproxy

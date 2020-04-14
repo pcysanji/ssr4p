@@ -13,6 +13,11 @@
 
 # 代理域名规则
 # pcysanji
+.nasa.gov remoteproxy
+.alternativeto.net remoteproxy
+.voukoder.org remoteproxy
+.deeezy.com remoteproxy
+.filecr.com remoteproxy
 .coolsymbol.com remoteproxy
 .unsplash.com remoteproxy
 .behance.net remoteproxy

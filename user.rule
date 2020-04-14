@@ -13,6 +13,7 @@
 
 # 代理域名规则
 # pcysanji
+.unwire.hk remoteproxy
 .nasa.gov remoteproxy
 .alternativeto.net remoteproxy
 .voukoder.org remoteproxy

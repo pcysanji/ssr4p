@@ -13,6 +13,7 @@
 
 # 代理域名规则
 # pcysanji
+.rsshub.app remoteproxy
 .unwire.hk remoteproxy
 .nasa.gov remoteproxy
 .alternativeto.net remoteproxy

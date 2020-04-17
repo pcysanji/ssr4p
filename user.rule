@@ -13,7 +13,8 @@
 
 # 代理域名规则
 # pcysanji
-.daumcdn.net
+.daum.net remoteproxy
+.daumcdn.net remoteproxy
 .tc4shell.com remoteproxy
 .rsshub.app remoteproxy
 .unwire.hk remoteproxy

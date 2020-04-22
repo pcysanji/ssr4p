@@ -13,6 +13,8 @@
 
 # 代理域名规则
 # pcysanji
+.hottg.com remoteproxy
+.matters.news remoteproxy
 .bennythink.com remoteproxy
 .tingtalk.me remoteproxy
 .daum.net remoteproxy

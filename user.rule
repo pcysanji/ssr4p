@@ -13,6 +13,8 @@
 
 # 代理域名规则
 # pcysanji
+95.141.193.17 remoteproxy
+.cloudfront.net remoteproxy
 .cg4vn.net remoteproxy
 .hottg.com remoteproxy
 .matters.news remoteproxy

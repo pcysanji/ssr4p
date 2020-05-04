@@ -13,6 +13,8 @@
 
 # 代理域名规则
 # pcysanji
+.reddit.com remoteproxy
+.v2rayssr.com remoteproxy
 .xmedia-recode.de remoteproxy
 95.141.193.17 remoteproxy
 .cloudfront.net remoteproxy

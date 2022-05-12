@@ -17,9 +17,9 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>TikTok</string>
-                <key>21.1.0</key>
-                <string>1.0</string>
+                <string>com.zhiliaoapp.musically</string>
+                <key>bundle-version</key>
+                <string>21.1.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
